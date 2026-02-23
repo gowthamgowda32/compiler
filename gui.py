@@ -1,0 +1,16 @@
+import tkinter
+parent = tkinter.Tk()
+parent.title("Students")
+parent.geometry("300x200")
+name = tkinter.Label (parent,text="Name")
+name.grid(row=0,column=0,pady=10,padx=5)
+e1 = tkinter.Entry(parent)
+e1.grid(row=0,column=1)
+regno = tkinter.Label(parent,text="Reg No")
+regno.grid(row=1,column=0,pady=10,padx=5)
+e2= tkinter.Entry(parent)
+e2.grid(row=1,column=1)
+btn = tkinter.Button(parent,text = "Submit")
+btn.grid(row=2,column=1)
+parent.mainloop()
+
